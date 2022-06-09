@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="home.css" rel="stylesheet">
+    <title>Tela Inicial</title>
+</head>
+<body>
+    <main>
+        <div class="menu">
+            <div class="a">
+              <a href="enredo.html"><em><strong>Enredo</strong></em></a>
+              <a href="personagens.html"><em><strong>Personagens</strong></em></a>
+              <a href="trailer.html"><em><strong>Trailer</strong></em></a>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="./img/logo.jpg">
+        </div>
+        <div id="data"></div>
+            <script>
+                date = new Date();
+                year = date.getFullYear();
+                month = date.getMonth() + 1;
+                day = date.getDate();
+            document.getElementById("data").innerHTML = day + "/" + month + "/" + year;
+            </script>
+        <div class="texto">
+            <p id="enredo"><em><strong><u>Sinopse:</u></strong></em></p>
+            <p><em>As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.</em></p>
+        </div>
+    </main>
+</body>
+</html>

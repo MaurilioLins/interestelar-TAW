@@ -1,0 +1,168 @@
+html,body{
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: skyblue;
+}
+
+main div a:hover{
+    color: blanchedalmond;
+    transition: 300ms;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    width: 1160px;
+    height: 100%;
+}
+
+.menu a{
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 6px #5f43ff;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightblue;
+    border:5px inset #2746ad;     
+    padding:1px;     
+    background: skyblue;
+}
+
+.personagens{
+    display: inline-flex;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.copper{
+    border:8px inset #2746ad;     
+    padding:1px;     
+    background: #000000;
+}
+
+#tit-copper{
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#text-copper{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+.drbrand{
+    display: flex;
+}
+
+.brand{
+    transition: 300ms;
+    display: inline-flex;
+    text-align: left;
+    margin-left: 100px;
+    border:8px inset #2746ad;     
+    padding:1px;     
+    background: #000000;
+}
+
+#tit-brand{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#text-brand{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+.murphy{
+    display: flex;
+}
+
+.murphy-copper{
+    transition: 300ms;
+    display: inline-flex;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    border:8px inset #2746ad;     
+    padding:1px;     
+    background: #000000;
+}
+
+#tit-murphy{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 80px;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#text-murphy{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+.johnbrand{
+    display: flex;
+}
+
+.john-brand{
+    transition: 300ms;
+    display: inline-flex;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    border:8px inset #2746ad;    
+    padding:1px;     
+    background: #000000;
+}
+
+#tit-johnbrand{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 80px;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#text-johnbrand{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-shadow: 1px 1px 4px #000000;
+}
