@@ -1,0 +1,102 @@
+html,body{
+    font-family: sans-serif;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: skyblue;
+}
+
+main div a:hover{
+    color: blanchedalmond;
+    transition: 300ms;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    width: 1160px;
+    height: 100%;
+}
+
+.menu a{
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 6px #5f43ff;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightblue;
+    border:5px inset #2746ad;     
+    padding:1px;     
+    background: skyblue;
+}
+
+#tit-enredo{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+#tit-1{
+    display: flex;
+    justify-content: left;
+    font-size: 25px;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+#text-enredo{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+#tit-2{
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+    font-size: 25px;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+#text-enredo2{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+#tit-3{
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+    font-size: 25px;
+    text-shadow: 1px 1px 5px #000000;
+}
+
+#text-enredo3{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-shadow: 1px 1px 4px #000000;
+}
